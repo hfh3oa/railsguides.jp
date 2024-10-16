@@ -516,8 +516,6 @@ end
 
 NOTE: `has_one`関連付けや`belongs_to`関連付けの場合と異なり、`has_many`関連付けを宣言する場合は、相手のモデル名を「**複数形**」で指定する必要があります。
 
-NOTE: `has_many`関連付けを宣言する場合、相手のモデル名は「複数形」で指定する必要があります。
-
 ![has_many関連付けの図](images/association_basics/has_many.png)
 
 上の関連付けに対応するマイグレーションは以下のような感じになります。
